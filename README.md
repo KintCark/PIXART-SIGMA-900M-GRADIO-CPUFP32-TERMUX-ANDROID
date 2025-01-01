@@ -3,3 +3,6 @@ Chat gpt is a big help im making gradio mods now for android this space I downlo
 
 make sure you
  pip install accelerate --break-system-packages
+
+
+make sure u put --break-system-packages at the end of each pip installation 
