@@ -23,7 +23,7 @@ pip install torch typing_extensions numpy Pillow requests pytorch_lightning absl
 
 make sure you
 
- pip install accelerate --break-system-packages
+ pip install accelerate
 
 
  
