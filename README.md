@@ -18,12 +18,7 @@ pkg update -y && pkg install wget curl proot tar -y && wget https://raw.githubus
 2>
 
 apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-distutils python3-pip python3-venv python-is-python3 -y &&
-pip install torch typing_extensions numpy Pillow requests pytorch_lightning absl-py && pip install torch safetensors gradio spaces
-
-
-make sure you
-
- pip install accelerate
+pip install torch typing_extensions numpy Pillow requests pytorch_lightning absl-py && pip install torch safetensors gradio spaces && pip install transformers && pip install accelerate
 
 
  
