@@ -16,7 +16,10 @@ Makesure you install UBUNTU FIRST:
 curl -fsSL https://raw.githubusercontent.com/TecnicalBot/modded-distro/main/install.sh | bash
 
 2>
+python3 -m venv pixart-env
+source pixart-env/bin/activate
 
+>3
 apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-pip python3-venv python-is-python3 -y &&
 pip install torch typing_extensions numpy Pillow requests pytorch_lightning absl-py && pip install torch safetensors gradio spaces && pip install transformers && pip install accelerate
 
