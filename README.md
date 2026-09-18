@@ -11,6 +11,8 @@ It will download everything for you
 
 Makesure you install UBUNTU FIRST:
 
+1.0> pkg update -y && pkg upgrade && pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu22/ubuntu22.sh -O ubuntu22.sh && chmod +x ubuntu22.sh && bash ubuntu22.sh
+
 1>
 
 curl -fsSL https://raw.githubusercontent.com/TecnicalBot/modded-distro/main/install.sh | bash
